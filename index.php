@@ -26,6 +26,8 @@
   echo strrev('Lets reverse this');
   echo strpos('Hi Brendan', 'Hi'); 
   echo str_replace('Brendan', 'Seamus', 'Hi Brendan');
+  $names = array('Brendan', 'Amy', 'Seamus');
+  echo $names['0'];
   // echo strlen($sayHello.value)
 ?>
 
